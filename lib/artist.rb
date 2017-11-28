@@ -20,6 +20,7 @@ class Artist
   end
 
   extend Memorable
+  extend Findable
 
   def add_song(song)
     @songs << song
