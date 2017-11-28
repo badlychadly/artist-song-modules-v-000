@@ -6,7 +6,7 @@ class Song
 
   @@songs = []
   include Memorable::InstanceMethods
-  
+
 
 
   def artist=(artist)
