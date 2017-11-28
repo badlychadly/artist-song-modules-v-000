@@ -23,6 +23,7 @@ class Song
 
   extend Memorable
   extend Findable
+  include Paramable
 
   def self.all
     @@songs
