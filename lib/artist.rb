@@ -19,6 +19,7 @@ class Artist
   extend Memorable
   extend Findable
   include Paramable
+  include Memorable::InstanceMethods
 
   def add_song(song)
     @songs << song
